@@ -145,6 +145,3 @@ cloudstack-api createPortForwardingRule \
 পোর্ট ফরওয়ার্ডিং একটি শক্তিশালী টুল যা আপনার VM-কে ইন্টারনেটের সাথে যুক্ত করে। নিরাপত্তার কথা মাথায় রেখে শুধুমাত্র প্রয়োজন অনুযায়ী সিঙ্গেল পোর্ট ফরওয়ার্ডিং ব্যবহার করাই যুক্তিযুক্ত। যখন আপনার একাধিক বা সমস্ত পোর্টের প্রয়োজন হবে, তখন Static NAT ব্যবহার করা একটি কার্যকর বিকল্প হতে পারে।
 
 ---
-
-Would you like me to focus on any specific section of this $\text{README.md}$ file, such as elaborating on the **Static NAT** configuration or providing more details on the **CLI commands**?
-```
