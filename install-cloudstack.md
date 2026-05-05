@@ -93,11 +93,12 @@ FLUSH PRIVILEGES;
 
 ### 🔧 **ধাপ ৪: CloudStack Management Server ইনস্টল**
 
+#### CloudStack রিপোজিটরি যোগ করুন
 ```bash
-# CloudStack রিপোজিটরি যোগ করুন
 wget -O - https://download.cloudstack.org/ubuntu/keys/official.asc | sudo apt-key add -
 echo "deb https://download.cloudstack.org/ubuntu focal/4.18 ./" | sudo tee /etc/apt/sources.list.d/cloudstack.list
-
+```
+```
 sudo apt update
 sudo apt install -y cloudstack-management
 ```
@@ -129,6 +130,9 @@ sudo apt install -y cloudstack-agent
 ```
 
 কনফিগার করুন `/etc/cloudstack/agent/agent.properties`:
+```
+nano /etc/cloudstack/agent/agent.properties
+```
 
 ```properties
 host=127.0.0.1
@@ -153,7 +157,7 @@ sudo systemctl enable cloudstack-agent
 - ইউজার: `admin`  
 - পাসওয়ার্ড: `password`
 
-প্রথমবার লগ ইনের পর আপনাকে **Zone, Pod, Cluster, Primary/Secondary Storage** সেটআপ করতে হবে।
+> প্রথমবার লগ ইনের পর আপনাকে **Zone, Pod, Cluster, Primary/Secondary Storage** সেটআপ করতে হবে।
 
 ---
 
