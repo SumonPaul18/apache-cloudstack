@@ -1,5 +1,5 @@
 
-## OpenStack Vs CloudStack সম্পর্কে বিস্তারিত জানতে চাই।
+## OpenStack Vs CloudStack সম্পর্কে বিস্তারিত।
 
 > OpenStack এবং CloudStack দুটি ওপেন সোর্স ক্লাউড কম্পিউটিং প্ল্যাটফর্ম, যা প্রাইভেট ক্লাউড (Private Cloud), পাবলিক ক্লাউড (Public Cloud), এবং হাইব্রিড ক্লাউড (Hybrid Cloud) তৈরি করতে ব্যবহৃত হয়। উভয়ই IaaS (Infrastructure as a Service) প্রদান করে, কিন্তু এদের মধ্যে কিছু গুরুত্বপূর্ণ পার্থক্য রয়েছে। নিচে বিস্তারিতভাবে তুলনা করা হলো:
 
