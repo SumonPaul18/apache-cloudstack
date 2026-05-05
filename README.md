@@ -2,9 +2,7 @@
 
 > _A scalable, open-source cloud orchestration platform for building and managing public/private IaaS clouds._
 
-![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?logo=apache)  ![Version](https://img.shields.io/badge/Version-4.19.0-green)  ![Status](https://img.shields.io/badge/Status-Stable-brightgreen)  
-![Stars](https://img.shields.io/github/stars/apache/cloudstack?style=social)  
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-informational?logo=github)](https://github.com/apache/cloudstack)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?logo=apache)  ![Version](https://img.shields.io/badge/Version-4.19.0-green)  ![Status](https://img.shields.io/badge/Status-Stable-brightgreen)  ![Stars](https://img.shields.io/github/stars/apache/cloudstack?style=social) [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-informational?logo=github)](https://github.com/apache/cloudstack)
 
 ---
 
