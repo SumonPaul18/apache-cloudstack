@@ -50,14 +50,16 @@
 
 ### 🔧 **ধাপ ১: সিস্টেম প্রস্তুতকরণ**
 
+#### হোস্টনেম সেট করুন (উদাহরণ: cloudstack01)
 ```bash
-# হোস্টনেম সেট করুন (উদাহরণ: cloudstack01)
 sudo hostnamectl set-hostname cloudstack01
-
-# /etc/hosts ফাইল এডিট করুন
-sudo nano /etc/hosts
-# যোগ করুন: 127.0.0.1 cloudstack01
 ```
+
+#### /etc/hosts ফাইল এডিট করুন
+```
+sudo nano /etc/hosts
+```
+> যোগ করুন: 127.0.0.1 cloudstack01
 
 ---
 
